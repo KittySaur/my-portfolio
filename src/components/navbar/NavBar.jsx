@@ -6,6 +6,7 @@ import {
   NavBarButton,
   BurgerMenu,
   BurgerLink,
+  ResumeLink,
 } from "./NavBar.styled";
 import { useState } from "react";
 
@@ -18,6 +19,12 @@ function NavBar() {
         <Link to={"/"}>Home</Link>
         <Link to={"/about"}>About me</Link>
         <Link to={"/projects"}>Projects</Link>
+        <ResumeLink
+          target={"blank"}
+          href="/CV_Zarina_Nugmanova_Frontend_Developer.pdf"
+        >
+          My Resume
+        </ResumeLink>
         <NavBarButton open={open} onClick={() => setOpen(!open)}>
           <span key={1} />
           <span key={2} />

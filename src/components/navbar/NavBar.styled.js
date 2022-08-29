@@ -36,6 +36,18 @@ export const Link = styled(NavLink)`
   }
 `;
 
+export const ResumeLink = styled.a`
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 7px 10px;
+  border-radius: 5px;
+
+  &:hover {
+    color: #efa500;
+    border: 1px solid #efa500;
+  }
+`;
+
 export const NavBarButton = styled.div`
   width: 20px;
   height: 36px;
