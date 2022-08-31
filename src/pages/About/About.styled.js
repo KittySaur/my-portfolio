@@ -16,6 +16,10 @@ export const Skills = styled.div`
   padding: 50px;
   gap: 30px;
   justify-content: space-around;
+
+  @media (max-width: 540px) {
+    flex-direction: column;
+  }
 `;
 
 export const SkillBox = styled.div`
