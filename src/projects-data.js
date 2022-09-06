@@ -4,7 +4,7 @@ const PROJECTS_DATA = [
     id: 1,
     imgSrc: "/img/music-app.png",
     button: "Check this project on GitHub",
-    link: "",
+    link: "https://music-app-by-z.netlify.app",
     gitHubLink: "https://github.com/KittySaur/music-app",
   },
   {
@@ -12,7 +12,7 @@ const PROJECTS_DATA = [
     id: 2,
     imgSrc: "/img/memory-game.png",
     button: "Check this project on GitHub",
-    link: "",
+    link: "https://memory-card-game-by-z.netlify.app",
     gitHubLink: "https://github.com/KittySaur/card_game",
   },
   {
