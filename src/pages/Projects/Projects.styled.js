@@ -35,6 +35,11 @@ export const GridItem = styled.div`
   &:hover {
     transform: scale(1.05);
   }
+
+  p {
+    font-style: italic;
+    text-align: center;
+  }
 `;
 
 export const ProjectImg = styled.img`

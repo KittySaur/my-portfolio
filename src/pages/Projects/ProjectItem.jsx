@@ -22,18 +22,21 @@ function ProjectItem() {
   }
   return (
     <ProjectGrid>
-      {PROJECTS_DATA.map(({ title, id, imgSrc, button, gitHubLink, link }) => (
-        <GridItem key={id}>
-          <h3>{title}</h3>
-          <ProjectImg src={imgSrc} />
-          <ProjectButton>
-            <a target="blank" href={gitHubLink}>
-              {button}
-            </a>
-          </ProjectButton>
-          {isLink(link)}
-        </GridItem>
-      ))}
+      {PROJECTS_DATA.map(
+        ({ title, id, imgSrc, button, gitHubLink, link, keywords }) => (
+          <GridItem key={id}>
+            <h3>{title}</h3>
+            <p>{keywords}</p>
+            <ProjectImg src={imgSrc} />
+            <ProjectButton>
+              <a target="blank" href={gitHubLink}>
+                {button}
+              </a>
+            </ProjectButton>
+            {isLink(link)}
+          </GridItem>
+        )
+      )}
     </ProjectGrid>
   );
 }

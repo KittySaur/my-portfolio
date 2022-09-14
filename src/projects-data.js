@@ -1,6 +1,7 @@
 const PROJECTS_DATA = [
   {
     title: "Music App (in progress)",
+    keywords: "ReactJS, Redux, SPA",
     id: 1,
     imgSrc: "/img/music-app.png",
     button: "Check this project on GitHub",
@@ -9,6 +10,7 @@ const PROJECTS_DATA = [
   },
   {
     title: "Memory card game",
+    keywords: "JavaScript, WebPack, HTML/CSS",
     id: 2,
     imgSrc: "/img/memory-game.png",
     button: "Check this project on GitHub",
@@ -17,6 +19,7 @@ const PROJECTS_DATA = [
   },
   {
     title: "Online rock-scissors-paper game",
+    keywords: "JavaScript, AJAX, SPA, API, HTML/CSS",
     id: 3,
     imgSrc: "/img/rock-scissors-paper.png",
     button: "Check this project on GitHub",
@@ -25,6 +28,7 @@ const PROJECTS_DATA = [
   },
   {
     title: "Weather widget",
+    keywords: "JavaScript, AJAX, API, HTML/CSS",
     id: 4,
     imgSrc: "/img/weather-widget.png",
     button: "Check this project on GitHub",
@@ -33,6 +37,7 @@ const PROJECTS_DATA = [
   },
   {
     title: "Simple JS games",
+    keywords: "Vanilla JavaScript, Responsive design, HTML/CSS",
     id: 5,
     imgSrc: "/img/simple-js.png",
     button: "Check this project on GitHub",
@@ -41,6 +46,7 @@ const PROJECTS_DATA = [
   },
   {
     title: "Responsive furniture store website",
+    keywords: "Responsive design, HTML/CSS, SASS",
     id: 6,
     imgSrc: "/img/furniture-landing.png",
     button: "Check this project on GitHub",
