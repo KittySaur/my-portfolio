@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const ProjectGrid = styled.div`
   display: grid;
@@ -16,7 +16,7 @@ export const ProjectGrid = styled.div`
     grid-template-columns: repeat(1, 1fr);
     margin: 10px;
   }
-`;
+`
 
 export const GridItem = styled.div`
   min-width: 300px;
@@ -40,13 +40,13 @@ export const GridItem = styled.div`
     font-style: italic;
     text-align: center;
   }
-`;
+`
 
 export const ProjectImg = styled.img`
   width: 80%;
   flex: 1;
   border-radius: 5px;
-`;
+`
 
 export const ProjectButton = styled.button`
   background-color: transparent;
@@ -63,4 +63,4 @@ export const ProjectButton = styled.button`
   &:hover {
     transform: scale(1.05);
   }
-`;
+`
