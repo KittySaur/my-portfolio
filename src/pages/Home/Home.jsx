@@ -6,9 +6,9 @@ function Home() {
     <Container>
       <TextContainer>
         <h1>Zarina Nugmanova</h1>
-        <h2>Frontend Developer</h2>
+        <h2>Front End Developer</h2>
         <p>
-          Frontend developer with a desire to learn and grow in a collaborative
+          Front End developer with a desire to learn and grow in a collaborative
           team environment. Hands on experience building frontend projects using
           React JS, JavaScript and other tools with well-designed, testable and
           efficient code.
