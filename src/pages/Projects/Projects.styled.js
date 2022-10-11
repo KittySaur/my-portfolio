@@ -61,6 +61,9 @@ export const ProjectButton = styled.button`
   }
 
   &:hover {
-    transform: scale(1.05);
+    background-color: #fff;
+    a {
+      color: #161b40;
+    }
   }
 `

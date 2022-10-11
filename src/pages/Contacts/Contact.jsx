@@ -1,5 +1,5 @@
-import { Container } from "../../Styles";
-import { Links } from "./Contacts.styled";
+import { Container } from '../../Styles'
+import { Links } from './Contacts.styled'
 
 function Contact() {
   return (
@@ -7,7 +7,7 @@ function Contact() {
       <Links>
         <a
           target="_blank"
-          href="https://www.linkedin.com/in/zarina-nugmanova-62a933113/"
+          href="https://www.linkedin.com/in/zarina-nugmanova/"
           rel="noreferrer"
         >
           LinkedIn
@@ -29,7 +29,7 @@ function Contact() {
         <a href="tel: +1-617-581-3419">+1 (617)-581-3419</a>
       </Links>
     </Container>
-  );
+  )
 }
 
-export default Contact;
+export default Contact

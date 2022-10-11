@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
 * {
@@ -40,6 +40,6 @@ button{
 ul li {
   list-style: none;
 }
-`;
+`
 
-export default GlobalStyles;
+export default GlobalStyles

@@ -1,12 +1,12 @@
-import React from "react";
-import { Container } from "../../Styles";
-import { AboutMe, Skills, SkillBox, AboutLink } from "./About.styled";
+import React from 'react'
+import { Container } from '../../Styles'
+import { AboutMe, Skills, SkillBox, AboutLink } from './About.styled'
 
 function About() {
   return (
     <Container>
       <AboutMe>
-        <p>Hello! My name is Zarina and I am a junior Frontend Developer.</p>
+        <p>Hello! My name is Zarina and I am a Frontend Developer.</p>
 
         <p>
           From the moment I wrote my first line of code I was hooked. The
@@ -24,8 +24,8 @@ function About() {
         </p>
         <p>
           I believe that the best way to learn is with practice and have put all
-          these technologies and techniques into use. I have built several{" "}
-          <AboutLink to={"/projects"}>projects</AboutLink> that I invite you to
+          these technologies and techniques into use. I have built several{' '}
+          <AboutLink to={'/projects'}>projects</AboutLink> that I invite you to
           look at in the project section.
         </p>
         <p>
@@ -45,7 +45,8 @@ function About() {
             <li>JSON, AJAX</li>
             <li>Webpack</li>
             <li>Git Version Control</li>
-            <li>ReactJS (in progress)</li>
+            <li>ReactJS / Redux</li>
+            <li>Node JS / Express</li>
           </ul>
         </SkillBox>
 
@@ -70,9 +71,9 @@ function About() {
         </SkillBox>
       </Skills>
     </Container>
-  );
+  )
 }
 
-export default About;
+export default About
 
 // SiWebpack, SiHtml5, SiCss3, SiJavascript, SiReact

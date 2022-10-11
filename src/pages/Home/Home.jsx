@@ -1,5 +1,5 @@
-import { TextContainer } from "./Home.styled";
-import { Container } from "../../Styles";
+import { TextContainer } from './Home.styled'
+import { Container } from '../../Styles'
 
 function Home() {
   return (
@@ -8,14 +8,14 @@ function Home() {
         <h1>Zarina Nugmanova</h1>
         <h2>Frontend Developer</h2>
         <p>
-          Passionate Frontend Developer able to build a Website from the ground
-          up - from concept, navigation, layout and programming to UX and SEO.
-          Skilled at writing well-designed, testable and efficient code using
-          current best practices in Web development
+          Frontend developer with a desire to learn and grow in a collaborative
+          team environment. Hands on experience building frontend projects using
+          React JS, JavaScript and other tools with well-designed, testable and
+          efficient code.
         </p>
       </TextContainer>
     </Container>
-  );
+  )
 }
 
-export default Home;
+export default Home
